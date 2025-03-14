@@ -82,7 +82,7 @@ void verificarNumero(String numero) {
   Serial.println(numero);
   
   // Compara el número con "456"
-  if (numero == "456") {
+  if (numero == "123") {
     Serial.println("¡Número correcto!");
     digitalWrite(ledVerde, HIGH);  // Enciende el LED verde
     digitalWrite(ledRojo, LOW);    // Apaga el LED rojo
